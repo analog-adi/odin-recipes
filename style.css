@@ -1,0 +1,17 @@
+
+p{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+body{
+    background-color: rgb(122, 238, 122);
+    margin-left: 750px;
+    color: lightcoral
+    ;
+}
+
+.big-letters {
+
+    font-size: larger;
+}
