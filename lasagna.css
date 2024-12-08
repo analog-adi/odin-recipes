@@ -1,0 +1,32 @@
+body{
+    background-color: burlywood;
+
+}
+
+h1{
+    color: rgb(102, 44, 3);
+    margin-left: 20px;
+
+}
+
+img{
+    margin: 15px;
+
+}
+
+h2{
+    color: rgb(102, 44, 3);
+    margin-left: 20px;
+    font-size: 35px;
+
+}
+p{
+    font-size: 20px;
+}
+
+ul{
+    font-size: 20px;
+}
+ol{
+    font-size: 20px;
+}
