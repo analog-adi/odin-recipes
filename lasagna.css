@@ -1,27 +1,55 @@
+/* * {
+    outline: 4px solid red;
+} */
+
 body{
     background-color: burlywood;
+    color: rgb(102, 44, 3);
+
 
 }
 
-h1{
-    color: rgb(102, 44, 3);
-    margin-left: 20px;
+.container{
+       display: inline-block;
+    flex-direction: column;
+    flex: 1;
+    padding: 45px;
+}
+
+header{
+        font-size: 65px;
+        margin: auto;
+        padding: 20px;
+        margin-bottom: 11px;
 
 }
 
 img{
-    margin: 15px;
+    margin: auto;
+    padding: 30px;
+
 
 }
 
 h2{
     color: rgb(102, 44, 3);
-    margin-left: 20px;
+    margin: auto;
     font-size: 35px;
+    padding: 30px;
 
 }
+
+.list-items{
+        padding: 30px;
+}
+li{
+    padding: 10px
+}
+
 p{
     font-size: 20px;
+    margin: auto;
+    flex: 1;
 }
 
 ul{
