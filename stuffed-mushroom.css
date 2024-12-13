@@ -4,11 +4,19 @@ body{
 
 }
 
-h1{
-    color: rgb(102, 44, 3);
-    margin-left: 20px;
+.container{
+    display: inline-block;
+    box-sizing: border-box;
+ padding: 45px;
+}
+header{
+    font-size: 65px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 11px;
 
 }
+
 
 img{
     margin: 15px;
@@ -17,17 +25,27 @@ img{
 
 h2{
     color: rgb(102, 44, 3);
-    margin-left: 20px;
+    margin: auto;
     font-size: 35px;
+    padding: 30px;
 
 }
+.list-items{
+    padding: 30px;
+}
+li{
+padding: 10px
+}
+
 p{
-    font-size: 20px;
+font-size: 20px;
+margin: auto;
+flex: 1;
 }
 
 ul{
-    font-size: 20px;
+font-size: 20px;
 }
 ol{
-    font-size: 20px;
+font-size: 20px;
 }
