@@ -1,32 +1,47 @@
-body{
-    background-color: rgb(240, 214, 131);
-
+body {
+  background-color: rgb(240, 214, 131);
+}
+.container {
+  display: inline-block;
+  flex-direction: column;
+  flex: 1;
+  padding: 45px;
 }
 
-h1{
-    color: rgb(180, 17, 17);
-    margin-left: 20px;
-
+header {
+  color: rgb(102, 44, 3);
+  font-size: 65px;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 11px;
 }
 
-img{
-    margin: 15px;
-
+img {
+  margin: auto;
+  padding: 30px;
+}
+h2 {
+  color: rgb(102, 44, 3);
+  margin-left: 20px;
+  font-size: 35px;
 }
 
-h2{
-    color: rgb(102, 44, 3);
-    margin-left: 20px;
-    font-size: 35px;
-
+.list-items {
+  padding: 30px;
 }
-p{
-    font-size: 20px;
+li {
+  padding: 10px;
 }
 
-ul{
-    font-size: 20px;
+p {
+  font-size: 20px;
+  margin: auto;
+  flex: 1;
 }
-ol{
-    font-size: 20px;
+
+ul {
+  font-size: 20px;
+}
+ol {
+  font-size: 20px;
 }
